@@ -17,8 +17,7 @@ Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
 •	Kullanıcılar ilk migration sırasında sisteme insert edildi.
 •	Request ve Responselar DTO oldu.
 •	Entity – DTO dönüşümleri AutoMapper ile yapıldı.
-•	LeaveRequest tablosundaki CreatedAt ve LastModifiedAt alanları (DateTime) SaveChanges
-override edilerek otomatik olarak set edildi.
+•	LeaveRequest tablosundaki CreatedAt ve LastModifiedAt alanları (DateTime) SaveChanges override edilerek otomatik olarak set edildi.
 •	Domain Driven Design yaklaşımı uygulandı ve her bir entitynin create işlemi için Factory function kullanıldı.
 •	CQRS kullanıldı.
 •	Responselar için Ardalis.Result kütüphanesi kullanıldı.
