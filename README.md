@@ -4,8 +4,8 @@ Bir firmada bulunan Mavi Yaka, Beyaz Yaka ve Müdürlerin izin talebi yapacaklar
 
 Kullanılan Paket & Ortam Bilgileri
 ➢ EntityFramework 8.0.1
-➢ MSSQL ya da NoSQL (Optional)
-➢ Ardalis.Result (Optional)
+➢ MSSQL
+➢ Ardalis.Result
 ➢ AutoMapper
 
 Yöntemler & Görevler
@@ -15,7 +15,6 @@ Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
 •	Sistemdeki her bir Id alanı Guid dir.
 •	LeaveRequest Form numarası üretildi ve ayrıca bir RequestFormNumber isminde bir ComputedColumn ile LRF prefixi ile (LRF-000100) gibi bir RequestFormNumber üretildi.
 •	Kullanıcılar ilk migration sırasında sisteme insert edildi.
-•	Request ve Responselar DTO oldu.
 •	Entity – DTO dönüşümleri AutoMapper ile yapıldı.
 •	LeaveRequest tablosundaki CreatedAt ve LastModifiedAt alanları (DateTime) SaveChanges override edilerek otomatik olarak set edildi.
 •	Domain Driven Design yaklaşımı uygulandı ve her bir entitynin create işlemi için Factory function kullanıldı.
