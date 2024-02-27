@@ -1,5 +1,7 @@
 # PermitRequestApp
 
+Bir firmada bulunan Mavi Yaka, Beyaz Yaka ve Müdürlerin izin talebi yapacakları ve bu taleplerin onaya sunulacağı örnek bir uygulamadır.
+
 Kullanılan Paket & Ortam Bilgileri
 ➢ EntityFramework 8.0.1
 ➢ MSSQL ya da NoSQL (Optional)
