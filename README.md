@@ -10,6 +10,7 @@ Kullanılan Paket & Ortam Bilgileri
 
 Yöntemler & Görevler
 Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
+<br>
 •	Code First yaklaşımı ile DB yaratıldı.
 •	Her bir entity için EntityTypeConfiguration yazıldı.
 •	Sistemdeki her bir Id alanı Guid dir.
