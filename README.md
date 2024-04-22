@@ -1,4 +1,4 @@
-# PermitRequestApp
+# Permit Request App
 
 Bir firmada bulunan Mavi Yaka, Beyaz Yaka ve Müdürlerin izin talebi yapacakları ve bu taleplerin onaya sunulacağı örnek bir uygulamadır.
 
