@@ -2,14 +2,18 @@
 
 Bir firmada bulunan Mavi Yaka, Beyaz Yaka ve Müdürlerin izin talebi yapacakları ve bu taleplerin onaya sunulacağı örnek bir uygulamadır.
 
-Kullanılan Paket & Ortam Bilgileri
+## Kullanılan Paket & Ortam Bilgileri
+<br>
 ➢ EntityFramework 8.0.1
+<br>
 ➢ MSSQL
+<br>
 ➢ Ardalis.Result
+<br>
 ➢ AutoMapper
 
-Yöntemler & Görevler
-Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
+## Yöntemler & Görevler
+### Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
 <br>
 •	Code First yaklaşımı ile DB yaratıldı.
 <br>
@@ -30,5 +34,5 @@ Mimari Clean Architecture ve aşağıdaki yöntemler kullanıldı.
 •	CQRS kullanıldı.
 <br>
 •	Responselar için Ardalis.Result kütüphanesi kullanıldı.
-
+<br>
 •	Tasklar içerisinde belirtilen Factory ve Strategy pattern yaklaşımı kullanıldı.
